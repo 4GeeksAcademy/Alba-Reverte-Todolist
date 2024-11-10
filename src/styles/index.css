@@ -1,12 +1,52 @@
-
-/* 
-
-    You can write your own styles here...
+.box1 {
+    display: flex;
+    justify-content: center;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.container {
+    width: 1000px;
+    height: 600px;
+    background-image : url("https://img.freepik.com/foto-gratis/pizarra-decorativa-sobre-superficie-corcho_23-2147608821.jpg?t=st=1730140431~exp=1730144031~hmac=4a30199b142ea6aad40e2aa9b1c398f9db84d98741f5e0b1ef0fb126655a21ce&w=996") 
+}
 
-*/
+.pizarra {
+    margin-left: 265px;
+    margin-top: 40px;
+    width: 440px;
+    height: 350px;
+    position: absolute;
+    color: antiquewhite;
+}
+
+.delete-icon {
+  opacity: 0.1; 
+}
+
+.delete-button:hover .delete-icon {
+  opacity: 1; 
+}
+
+   .delete-button{
+      margin-right: 5%; 
+   }
+
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: end; 
+    padding: 10px; 
+  }
+
+  .foot {
+    text-align: center;
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
